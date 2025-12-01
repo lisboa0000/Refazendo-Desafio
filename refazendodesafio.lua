@@ -85,3 +85,22 @@ print("| ")
 print("===================================================")
 
 -- ============================================================================
+-- Verso do Cartão
+print("\n===================================================")
+print("| VERSO DO CARTÃO - REGISTRO DE CRIATURA")
+print("| ")
+print("| Habilidades:")
+print("|    Furtividade:  " .. getProgressBar(stealthSkill))
+print("|    Explosão:     " .. getProgressBar(explosionSkill))
+print("| ")
+print("| Ataque Especial:")
+print("|    " .. specialAttack)
+print("| ")
+print("| Fraqueza Conhecida:")
+print("|    " .. weakness)
+print("| ")
+print("| AVISO DE SEGURANÇA:")
+print("|    " .. warning)
+print("| ")
+print("===================================================")
+
